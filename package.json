@@ -1,0 +1,24 @@
+{
+  "name": "insta-collection-downloader",
+  "version": "1.0.0",
+  "description": "Download the videos and photos saved in your instagram collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-zubair/insta-collection-downloader.git"
+  },
+  "author": "Zubair Bashir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ai-zubair/insta-collection-downloader/issues"
+  },
+  "homepage": "https://github.com/ai-zubair/insta-collection-downloader#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^3.0.1"
+  }
+}
