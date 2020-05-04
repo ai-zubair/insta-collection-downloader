@@ -21,7 +21,7 @@ async function main(){
   await browserPage.type('input[name="password"]',`${userCredentials.password}`);
   await browserPage.click("button[type='submit']");
   await sleep(3000);
-  await browserPage.goto("https://www.instagram.com/zubair.bashir_/saved/");
+  await browserPage.goto(`https://www.instagram.com/${userCredentials.username}/saved/`);
   await sleep(3000);
   const pageHtml = await browserPage.content();
   let $ = cheerio.load(pageHtml);
