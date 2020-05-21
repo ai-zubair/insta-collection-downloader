@@ -4,6 +4,9 @@ const { userCredentials } = require('./userCred');
 const axios = require("axios");
 const fs = require("fs");
 
+
+
+
 async function main(){
   const browser = await puppeteer.launch({
     headless: false,
